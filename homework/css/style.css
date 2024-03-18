@@ -132,6 +132,7 @@
 
 
 .section1{
+    margin-top: 100px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -187,7 +188,10 @@
     text-align: center;
 }
 
+
+
 .services .box1{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,12 +199,14 @@
 }
 
 .services .box2{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .services .box3{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -253,10 +259,86 @@
 }
 
 .portfolio{
+    background-color: #f8f9fa;
     margin-top: 150px;
     text-align: center;
 }
-
+.portfolio h1{
+    margin-top: 50px;
+}
 .portfolio h2{
     margin-top: 30px;
+}
+
+.team{
+    background-color: #f8f9fa;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.team h1{
+    margin-top: 50px;
+}
+
+
+.team img{
+    margin-top: 20px;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 7px rgb(216, 212, 212);
+}
+
+
+.team ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 10px 0;
+    column-gap: 35px;
+}
+
+.team ul li a{
+    text-decoration: none;
+}
+
+.team ul li a i{
+    color: white;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 35px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerr ul li a i{
+    color: white;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
